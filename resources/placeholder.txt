@@ -1,0 +1,18 @@
+Add your app screenshots and icon in this folder to replace the placeholders on the website.
+
+App Icon:
+- Create a high-resolution app icon image (at least 1024x1024 pixels)
+- Name it "app-icon.png"
+- This will be used in both the header and footer sections
+
+Screenshots:
+Recommended screenshots (6 total):
+1. Home Dashboard - showing the main interface of your app
+2. Profile Analysis - showing the profile strength analysis feature
+3. Message Help - showing message suggestions
+4. Chat Analysis - showing conversation analysis
+5. Date Planning - showing date ideas
+6. Ice Breakers - showing conversation starters
+
+For best results, use high-quality screenshots with consistent dimensions (e.g., 1242 x 2688 pixels for iPhone Pro Max).
+Make sure all screenshots have the same aspect ratio for a consistent look on the website. 
