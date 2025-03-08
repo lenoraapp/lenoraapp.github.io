@@ -32,8 +32,9 @@
                         <a href="#download" data-translate="menu_download">Download</a>
                         <a href="mailto:lenora@ulassancak.com" data-translate="contact_title">Contact</a>
                         <div class="language-switcher">
-                            <a href="#" class="language-option" data-lang="en">EN</a> |
+                            <a href="#" class="language-option" data-lang="en">EN</a>
                             <a href="#" class="language-option" data-lang="tr">TR</a>
+                            <a href="#" class="language-option" data-lang="fr">FR</a>
                         </div>
                     </div>
                 </div>
@@ -150,6 +151,16 @@
     </footer>
     <script src="scripts/translations.js" id="translationsScript"></script>
     <script>
+        // Immediately mark the active language
+        (function() {
+            const currentLang = localStorage.getItem('language') || 'en';
+            document.querySelectorAll('.language-option').forEach(option => {
+                if (option.getAttribute('data-lang') === currentLang) {
+                    option.classList.add('active');
+                }
+            });
+        })();
+        
         document.getElementById("privacyLink").addEventListener("click", function(event) {
             event.preventDefault();
             var currentLang = window.getCurrentLanguage();

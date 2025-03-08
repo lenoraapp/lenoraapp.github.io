@@ -77,3 +77,17 @@ function translate(key) {
   console.warn(`Translation not found for key: ${key} in language: ${lang}`);
   return key; // Return the key itself if translation is not found
 }
+
+// Make sure window.getCurrentLanguage is available for other scripts
+window.getCurrentLanguage = getCurrentLanguage;
+
+// Add a direct call to initialize when DOM is loaded
+document.addEventListener('DOMContentLoaded', function() {
+  // If translations are already loaded, initialize
+  if (window.translations) {
+    initializeLanguageSwitcher();
+  }
+  
+  // Force update of active language regardless of translations
+  updateActiveLanguage();
+});
