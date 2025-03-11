@@ -1,187 +1,187 @@
 {
   "app_name": {
     "en": "Lenora",
-    "tr": "Lenora",
-    "fr": "Lenora"
+    "fr": "Lenora",
+    "tr": "Lenora"
   },
   "title": {
     "en": "Lenora - AI Dating Coach",
-    "tr": "Lenora - Yapay Zeka Flört Koçu",
-    "fr": "Lenora - Coach de rencontres IA"
+    "fr": "Lenora - Coach de rencard IA",
+    "tr": "Lenora - Yapay Zeka Flört Koçu"
   },
   "menu_features": {
     "en": "Features",
-    "tr": "Özellikler",
-    "fr": "Caractéristiques"
+    "fr": "Caractéristiques",
+    "tr": "Özellikler"
   },
   "menu_showcase": {
     "en": "Showcase",
-    "tr": "Vitrin",
-    "fr": "Vitrine"
+    "fr": "Vitrine",
+    "tr": "Vitrin"
   },
   "menu_download": {
     "en": "Download",
-    "tr": "İndir",
-    "fr": "Télécharger"
+    "fr": "Télécharger",
+    "tr": "İndir"
   },
   "contact_title": {
     "en": "Contact",
-    "tr": "İletişim",
-    "fr": "Contact"
+    "fr": "Contact",
+    "tr": "İletişim"
   },
   "hero_title": {
     "en": "Lenora",
-    "tr": "Lenora",
-    "fr": "Lenora"
+    "fr": "Lenora",
+    "tr": "Lenora"
   },
   "hero_subtitle": {
     "en": "Your Personal AI Dating Coach",
-    "tr": "Kişisel Yapay Zeka İlişki Koçun",
-    "fr": "Votre coach personnel en IA"
+    "fr": "Votre coach personnel en IA",
+    "tr": "Kişisel Yapay Zeka İlişki Koçun"
   },
   "hero_description": {
     "en": "Improve your dating app experience with AI-powered suggestions and analysis",
-    "tr": "Yapay zeka destekli öneriler ve analizlerle flört uygulaması deneyimini geliştir",
-    "fr": "Améliorez votre expérience sur l'application de rencontres grâce à des suggestions et des analyses alimentées par l'IA."
+    "fr": "Améliorez votre expérience sur l'application de rencard grâce à des suggestions et des analyses alimentées par l'IA",
+    "tr": "Yapay zeka destekli öneriler ve analizlerle flört uygulaması deneyimini geliştir"
   },
   "download_app_store_file_name": {
     "en": "resources/en/appstore.svg",
-    "tr": "resources/tr/appstore.svg",
-    "fr": "resources/fr/appstore.svg"
+    "fr": "resources/fr/appstore.svg",
+    "tr": "resources/tr/appstore.svg"
   },
   "about_title": {
     "en": "About Lenora",
-    "tr": "Lenora Hakkında",
-    "fr": "À propos de Lenora"
+    "fr": "À propos de Lenora",
+    "tr": "Lenora Hakkında"
   },
   "about_description": {
     "en": "Lenora is your personal AI dating coach designed to help you navigate the complex world of online dating. Whether you need help crafting the perfect profile, writing engaging messages, or planning memorable dates, Lenora has you covered.",
-    "tr": "Lenora, çevrimiçi flört dünyasında size yardımcı olmak için tasarlanmış kişisel yapay zeka ilişki koçundur. Mükemmel bir profil oluşturmak, ilgi çekici mesajlar yazmak veya unutulmaz buluşmalar planlamak için yardıma ihtiyacın olduğunda Lenora yanında.",
-    "fr": "Lenora est votre coach personnel en matière de rencontres sur Internet, conçu pour vous aider à naviguer dans le monde complexe des rencontres en ligne. Que vous ayez besoin d'aide pour créer le profil parfait, rédiger des messages engageants ou planifier des rendez-vous mémorables, Lenora s'occupe de vous."
+    "fr": "Lenora est votre coach personnel en matière de rencontres sur Internet, conçu pour vous aider à naviguer dans le monde complexe des rencontres en ligne. Que vous ayez besoin d'aide pour créer le profil parfait, rédiger des messages engageants ou planifier des rendez-vous mémorables, Lenora s'occupe de vous.",
+    "tr": "Lenora, çevrimiçi flört dünyasında size yardımcı olmak için tasarlanmış kişisel yapay zeka ilişki koçundur. Mükemmel bir profil oluşturmak, ilgi çekici mesajlar yazmak veya unutulmaz buluşmalar planlamak için yardıma ihtiyacın olduğunda Lenora yanında."
   },
   "features_title": {
     "en": "Key Features",
-    "tr": "Temel Özellikler",
-    "fr": "Caractéristiques principales"
+    "fr": "Caractéristiques principales",
+    "tr": "Temel Özellikler"
   },
   "features_profile_analysis": {
     "en": "Profile Analysis",
-    "tr": "Profil Analizi",
-    "fr": "Analyse du profil"
+    "fr": "Analyse du profil",
+    "tr": "Profil Analizi"
   },
   "features_profile_analysis_description": {
     "en": "Get expert feedback on your dating profile with actionable improvements",
-    "tr": "Profillerin için kolay uygulanabilir iyileştirmelerle uzman geri bildirimi al",
-    "fr": "Obtenez les commentaires d'un expert sur votre profil de rencontre avec des améliorations réalisables."
+    "fr": "Obtenez les commentaires d'un expert sur votre profil de rencard avec des améliorations réalisables",
+    "tr": "Profillerin için kolay uygulanabilir iyileştirmelerle uzman geri bildirimi al"
   },
   "features_message_analysis": {
     "en": "Match Analysis",
-    "tr": "Eşleşme Analizi",
-    "fr": "Analyse du match"
+    "fr": "Analyse du match",
+    "tr": "Eşleşme Analizi"
   },
   "features_message_analysis_description": {
     "en": "Get insights about your match's profile to craft better messages and build connection",
-    "tr": "Daha iyi mesajlar oluşturmak ve bağlantı kurmak için eşleşmenin profili hakkında içgörüler edin",
-    "fr": "Obtenez des informations sur le profil de votre correspondant afin de rédiger de meilleurs messages et de créer des liens."
+    "fr": "Obtenez des informations sur le profil de votre correspondant afin de rédiger de meilleurs messages et de créer des liens.",
+    "tr": "Daha iyi mesajlar oluşturmak ve bağlantı kurmak için eşleşmenin profili hakkında içgörüler edin"
   },
   "features_chat_analysis": {
     "en": "Chat Analysis",
-    "tr": "Sohbet Analizi",
-    "fr": "Analyse du chat"
+    "fr": "Analyse du chat",
+    "tr": "Sohbet Analizi"
   },
   "features_chat_analysis_description": {
     "en": "Upload chat screenshots and get expert feedback on your messaging",
-    "tr": "Sohbet ekran görüntülerini yükle ve mesajlaşman hakkında uzman geri bildirimi al",
-    "fr": "Téléchargez des captures d'écran de chat et obtenez des commentaires d'experts sur vos messages."
+    "fr": "Téléchargez des captures d'écran de chat et obtenez des commentaires d'experts sur vos messages.",
+    "tr": "Sohbet ekran görüntülerini yükle ve mesajlaşman hakkında uzman geri bildirimi al"
   },
   "features_conversation_simulator": {
     "en": "Conversation Simulator",
-    "tr": "Konuşma Simülatörü",
-    "fr": "Simulateur de conversation"
+    "fr": "Simulateur de conversation",
+    "tr": "Konuşma Simülatörü"
   },
   "features_conversation_simulator_description": {
     "en": "Simulate real conversations to build confidence and skills",
-    "tr": "Özgüven ve becerilerini geliştirmek için gerçek konuşmaları simüle et",
-    "fr": "Simuler de vraies conversations pour renforcer la confiance et les compétences"
+    "fr": "Simuler de vraies conversations pour renforcer la confiance et les compétences",
+    "tr": "Özgüven ve becerilerini geliştirmek için gerçek konuşmaları simüle et"
   },
   "features_date_ideas": {
     "en": "Date Ideas",
-    "tr": "Randevu Fikirleri",
-    "fr": "Idées de rendez-vous"
+    "fr": "Idées de rendez-vous",
+    "tr": "Randevu Fikirleri"
   },
   "features_date_ideas_description": {
     "en": "Discover personalized date suggestions that match your shared interests",
-    "tr": "Ortak ilgi alanlarınıza uygun kişiselleştirilmiş buluşma önerileri keşfet",
-    "fr": "Découvrez des suggestions de rendez-vous personnalisées qui correspondent à vos intérêts communs"
+    "fr": "Découvrez des suggestions de rencard personnalisées qui correspondent à vos intérêts communs",
+    "tr": "Ortak ilgi alanlarınıza uygun kişiselleştirilmiş buluşma önerileri keşfet"
   },
   "features_message_suggestions": {
     "en": "Message Suggestions",
-    "tr": "Mesaj Önerileri",
-    "fr": "Suggestions de messages"
+    "fr": "Suggestions de messages",
+    "tr": "Mesaj Önerileri"
   },
   "features_message_suggestions_description": {
     "en": "Get personalized message ideas based on conversation stage and tone",
-    "tr": "Konuşma aşamasına ve tonuna göre kişiselleştirilmiş mesaj fikirleri al",
-    "fr": "Obtenir des idées de messages personnalisés en fonction du stade et du ton de la conversation"
+    "fr": "Obtenir des idées de messages personnalisés en fonction du stade et du ton de la conversation",
+    "tr": "Konuşma aşamasına ve tonuna göre kişiselleştirilmiş mesaj fikirleri al"
   },
   "showcase_title": {
     "en": "Showcase",
-    "tr": "Vitrin",
-    "fr": "Vitrine"
+    "fr": "Vitrine",
+    "tr": "Vitrin"
   },
   "showcase_one_file_name": {
     "en": "resources/en/showcase-1.png",
-    "tr": "resources/tr/showcase-1.png",
-    "fr": "resources/fr/showcase-1.png"
+    "fr": "resources/fr/showcase-1.png",
+    "tr": "resources/tr/showcase-1.png"
   },
   "showcase_two_file_name": {
     "en": "resources/en/showcase-2.png",
-    "tr": "resources/tr/showcase-2.png",
-    "fr": "resources/fr/showcase-2.png"
+    "fr": "resources/fr/showcase-2.png",
+    "tr": "resources/tr/showcase-2.png"
   },
   "showcase_three_file_name": {
     "en": "resources/en/showcase-3.png",
-    "tr": "resources/tr/showcase-3.png",
-    "fr": "resources/fr/showcase-3.png"
+    "fr": "resources/fr/showcase-3.png",
+    "tr": "resources/tr/showcase-3.png"
   },
   "showcase_four_file_name": {
     "en": "resources/en/showcase-4.png",
-    "tr": "resources/tr/showcase-4.png",
-    "fr": "resources/fr/showcase-4.png"
+    "fr": "resources/fr/showcase-4.png",
+    "tr": "resources/tr/showcase-4.png"
   },
   "showcase_five_file_name": {
     "en": "resources/en/showcase-5.png",
-    "tr": "resources/tr/showcase-5.png",
-    "fr": "resources/fr/showcase-5.png"
+    "fr": "resources/fr/showcase-5.png",
+    "tr": "resources/tr/showcase-5.png"
   },
   "showcase_six_file_name": {
     "en": "resources/en/showcase-6.png",
-    "tr": "resources/tr/showcase-6.png",
-    "fr": "resources/fr/showcase-6.png"
+    "fr": "resources/fr/showcase-6.png",
+    "tr": "resources/tr/showcase-6.png"
   },
   "menu_privacy": {
     "en": "Privacy Policy",
-    "tr": "Gizlilik Politikası",
-    "fr": "Politique de confidentialité"
+    "fr": "Politique de confidentialité",
+    "tr": "Gizlilik Politikası"
   },
   "menu_terms": {
     "en": "Terms of Service",
-    "tr": "Kullanım Koşulları",
-    "fr": "Conditions d'utilisation"
+    "fr": "Conditions d'utilisation",
+    "tr": "Kullanım Koşulları"
   },
   "menu_kvkk": {
     "en": "PDPL Information Notice",
-    "tr": "KVKK Bilgilendirme Metni",
-    "fr": "Avis d'information du PDPL"
+    "fr": "Avis d'information du PDPL",
+    "tr": "KVKK Bilgilendirme Metni"
   },
   "footer_copyright": {
     "en": "© 2025 Lenora AI Dating Coach. All rights reserved.",
-    "tr": "© 2025 Lenora Yapay Zeka İlişki Koçu. Tüm hakları saklıdır.",
-    "fr": "© 2025 Lenora AI Dating Coach. Tous droits réservés."
+    "fr": "© 2025 Lenora AI Dating Coach. Tous droits réservés.",
+    "tr": "© 2025 Lenora Yapay Zeka İlişki Koçu. Tüm hakları saklıdır."
   },
   "home": {
     "en": "Home",
-    "tr": "Anasayfa",
-    "fr": "Accueil"
+    "fr": "Accueil",
+    "tr": "Anasayfa"
   }
 }
