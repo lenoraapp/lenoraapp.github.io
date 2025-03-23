@@ -30,7 +30,7 @@
     <section class="legal-content">
         <div class="container">
             <h1>Privacy Policy</h1>
-            <p>Last updated: 02.03.2025</p>
+            <p>Last updated: 23.03.2025</p>
 
             <p>Welcome to Lenora AI Dating Coach. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application. Please read this privacy policy carefully. If you do not agree with the terms of this privacy policy, please do not access the application.</p>
 
@@ -38,8 +38,9 @@
             <p>We may collect information about you in a variety of ways. The information we may collect via the application depends on the content and materials you use, and includes:</p>
             <ul>
                 <li><strong>Dating App Content:</strong> We temporarily process the screenshots, messages, and profile information you upload for analysis and coaching purposes. This may include dating app conversations, profile pictures, and bios. This content is not stored on our servers.</li>
+                <li><strong>Authentication Information:</strong> When you sign in using Google or Apple authentication, we receive basic account information such as your email address and account identifier. This information is stored in Firebase Authentication.</li>
                 <li><strong>Local Storage:</strong> Your coaching requests, AI suggestions, and interaction history are stored locally on your device and in your private iCloud storage. We do not have access to this data.</li>
-                <li><strong>Credits:</strong> Information about your credit usage is stored privately in your iCloud account. We do not have access to this data.</li>
+                <li><strong>Credits:</strong> Information about your credit usage is stored in your Firebase account. This data is linked to your authentication profile.</li>
                 <li><strong>Usage Data:</strong> We use Firebase Analytics and Google Analytics to track user behavior within the app.</li>
                 <li><strong>Crash Reports:</strong> We use Firebase Crashlytics to collect crash reports to improve the app's stability.</li>
             </ul>
@@ -47,6 +48,8 @@
             <h2>How We Use Your Information</h2>
             <p>Having accurate information about you permits us to provide you with a smooth, efficient, and customized experience. Specifically, we may use information collected about you via the application to:</p>
             <ul>
+                <li>Authenticate your identity using Google or Apple sign-in.</li>
+                <li>Maintain your account information and credit balance in Firebase.</li>
                 <li>Provide AI-powered dating coaching services using Gemini from Firebase SDK.</li>
                 <li>Temporarily process dating app screenshots and conversations to offer personalized advice.</li>
                 <li>Generate message suggestions and conversation strategies.</li>
@@ -78,56 +81,65 @@
             <p>We use cookies and other tracking technologies to enhance your experience with our app. You can manage your cookie preferences through your browser settings. For more details, please refer to our Cookie Policy.</p>
 
             <h2>Sharing Your Information</h2>
-            <p>We do not store personal data on our servers. However, certain information may be shared as follows:</p>
+            <p>We store limited personal data on our servers through Firebase Authentication and Firebase Database for credit management. Certain information may be shared as follows:</p>
             <ul>
                 <li><strong>By Law or to Protect Rights:</strong> If we believe the release of information about you is necessary to respond to legal process, to investigate or remedy potential violations of our policies, or to protect the rights, property, and safety of others, we may share your information as permitted or required by any applicable law, rule, or regulation.</li>
-                <li><strong>Third-Party Service Providers:</strong> We use Firebase Analytics, Google Analytics, and Firebase Crashlytics which collect usage and crash data according to their own privacy policies.</li>
+                <li><strong>Third-Party Service Providers:</strong> We use Firebase Authentication, Firebase Database, Firebase Analytics, Google Analytics, Firebase Crashlytics, and RevenueCat which collect and store data according to their own privacy policies. RevenueCat specifically processes subscription and purchase data to manage your credit packages.</li>
                 <li><strong>AI Processing Services:</strong> We use Gemini AI from Firebase SDK to analyze your dating app content and generate coaching suggestions. Your content is processed temporarily and is not stored by these services.</li>
             </ul>
 
             <h2>Third-Party Services</h2>
             <p>Lenora AI Dating Coach uses the following third-party services:</p>
             <ul>
+                <li>Firebase Authentication: For user authentication with Google and Apple sign-in</li>
+                <li>Firebase Database: For storing your credit information</li>
                 <li>Firebase Analytics and Google Analytics: For usage analysis</li>
                 <li>Firebase Crashlytics: For crash reporting</li>
                 <li>Gemini AI (Firebase SDK): For analyzing dating content and generating coaching suggestions</li>
-                <li>Apple iCloud: For storing your credits and coaching history privately</li>
+                <li>Apple iCloud: For storing your coaching history privately</li>
+                <li>Google and Apple Authentication Services: For identity verification</li>
+                <li>RevenueCat: For managing subscriptions and in-app purchases of credit packages</li>
             </ul>
             <p>These services may collect and process your data according to their own privacy policies.</p>
 
             <h2>Data Storage and Privacy</h2>
             <p>We prioritize your privacy in the following ways:</p>
             <ul>
-                <li>We do not maintain user accounts or authentication systems.</li>
-                <li>We do not store your personal data on our servers.</li>
-                <li>Your credits and coaching history are stored only on your device and in your private iCloud storage.</li>
+                <li>We maintain user accounts and authentication systems only for necessary functionality using Firebase Authentication.</li>
+                <li>We store only the minimal necessary personal data on our servers (email address and account identifier for authentication, and credit balance).</li>
+                <li>Your coaching history is stored only on your device and in your private iCloud storage.</li>
                 <li>You can delete your coaching history and results at any time from within the app.</li>
                 <li>Content you upload for analysis is processed temporarily and is not permanently stored by us.</li>
+                <li>You can request deletion of your account data by contacting us.</li>
             </ul>
 
             <h2>International Data Transfers</h2>
-            <p>Since we do not store personal data on our servers, there are no international data transfers of your personal data by us. However, the third-party services we use (Firebase Analytics, Google Analytics, Firebase Crashlytics) may transfer data according to their own privacy policies.</p>
+            <p>The limited personal data we store (authentication information and credit balance) in Firebase may be transferred to different countries where Firebase operates. These transfers are governed by appropriate safeguards as required by applicable laws. The third-party services we use (Firebase Authentication, Firebase Database, Firebase Analytics, Google Analytics, Firebase Crashlytics) may also transfer data according to their own privacy policies.</p>
 
             <h2>GDPR Compliance</h2>
-            <p>While we do not store personal data on our servers, users in the European Economic Area (EEA) still have rights regarding any data processing:</p>
+            <p>We store limited personal data on our servers through Firebase. Users in the European Economic Area (EEA) have the following rights regarding this data:</p>
             <ul>
-                <li><strong>Access and Portability:</strong> Since we don't store your personal data, all your coaching data is already in your possession on your device and iCloud.</li>
-                <li><strong>Rectification and Erasure:</strong> You can delete your coaching history and results at any time from within the app.</li>
-                <li><strong>Restriction and Objection:</strong> You can stop using specific features of the app if you object to how they process your data.</li>
+                <li><strong>Access and Portability:</strong> You can request a copy of your personal data we store.</li>
+                <li><strong>Rectification and Erasure:</strong> You can request correction of inaccurate data or deletion of your account and associated data. You can also delete your coaching history and results at any time from within the app.</li>
+                <li><strong>Restriction and Objection:</strong> You can request that we restrict processing of your data or object to processing in certain circumstances.</li>
             </ul>
             <p>For any GDPR-related inquiries, please contact us at <a href="mailto:lenora@ulassancak.com">lenora@ulassancak.com</a>.</p>
 
             <h2>California Consumer Privacy Act (CCPA) Compliance</h2>
-            <p>Since we do not sell or store personal data, most CCPA provisions do not apply to our app. However, California residents should be aware that the third-party services we use (Firebase Analytics, Google Analytics, Firebase Crashlytics) may collect certain data according to their own privacy policies.</p>
+            <p>Under the CCPA, California residents have certain rights regarding their personal information. Since we store limited personal data (authentication information and credit balance), you have the right to know what personal information we collect, request deletion of your personal information, and opt-out of the sale of personal information (though we do not sell personal information). California residents should also be aware that the third-party services we use may collect certain data according to their own privacy policies.</p>
 
             <h2>Dating Content and Privacy</h2>
             <p>We understand that dating app content can be sensitive and personal. We take the following measures to protect your privacy:</p>
             <ul>
                 <li>All uploaded screenshots and conversations are processed temporarily and are not stored on our servers.</li>
                 <li>Results from AI analysis are stored only on your device and in your private iCloud storage.</li>
+                <li>Authentication data and credit information are stored securely in Firebase.</li>
                 <li>You can delete your coaching history and results at any time from within the app.</li>
                 <li>We recommend obscuring or cropping out identifying information of other individuals before uploading screenshots.</li>
             </ul>
+
+            <h2>Credits Information</h2>
+            <p>Lenora AI Dating Coach offers free and premium credit packages with various features. Free users receive a limited number of credits per month, while premium subscribers receive additional credits monthly. Additional credit packages can also be purchased separately. Current credit amounts and pricing are displayed within the app and are subject to change. Your credit balance is stored in Firebase and linked to your authentication profile. All purchase management, including subscriptions and cancellations, is handled through RevenueCat and the App Store. You can manage and cancel your subscription directly from your App Store account settings.</p>
 
             <h2>Changes to This Privacy Policy</h2>
             <p>We may update this Privacy Policy from time to time in order to reflect, for example, changes to our practices or for other operational, legal, or regulatory reasons. We will notify you of any material changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>

@@ -12,12 +12,26 @@
             // Redirect based on the 'lang' parameter or default to language detection
             var redirectUrl;
             if (langParam) {
-                // Redirect based on the query parameter
-                redirectUrl = langParam === 'tr' ? 'kvkk_tr.html' : 'kvkk_en.html';
+                // Handle the three supported languages: tr, fr, and en (default)
+                if (langParam === 'tr') {
+                    redirectUrl = 'kvkk_tr.html';
+                } else if (langParam === 'fr') {
+                    redirectUrl = 'kvkk_fr.html';
+                } else {
+                    redirectUrl = 'kvkk_en.html'; // Default/fallback to English
+                }
             } else {
-                // Default to language detection if no query parameter is present
+                // No query parameter, detect browser language
                 var userLang = navigator.language || navigator.userLanguage;
-                redirectUrl = userLang.startsWith('tr') ? 'kvkk_tr.html' : 'kvkk_en.html';
+                userLang = userLang.substring(0, 2).toLowerCase(); // Get the language code part only
+                
+                if (userLang === 'tr') {
+                    redirectUrl = 'kvkk_tr.html';
+                } else if (userLang === 'fr') {
+                    redirectUrl = 'kvkk_fr.html';
+                } else {
+                    redirectUrl = 'kvkk_en.html'; // Default/fallback to English
+                }
             }
 
             // Perform the redirect

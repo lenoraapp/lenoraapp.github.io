@@ -30,7 +30,7 @@
     <section class="legal-content">
         <div class="container">
             <h1>KVKK(Kişisel Verilerin Korunması Kanunu) Aydınlatma Metni</h1>
-            <p>Son güncelleme: 02.03.2025</p>
+            <p>Son güncelleme: 23.03.2025</p>
 
             <p>Lenora AI Dating Coach uygulamasına hoş geldiniz. <strong>Önemli not: Uygulamamız hiçbir kişisel veriyi toplamaz veya sunucularımızda saklamaz.</strong> Bu aydınlatma metni, içeriğinizin AI koçluk hizmetleri için nasıl geçici olarak işlendiğini ve verilerinizin nasıl korunduğunu açıklamaktadır. Lütfen bu metni dikkatlice okuyun.</p>
 
@@ -41,19 +41,21 @@
                 <li><strong>E-posta:</strong> <a href="mailto:lenora@ulassancak.com">lenora@ulassancak.com</a></li>
             </ul>
 
-            <h2>İşlediğimiz Bilgiler</h2>
-            <p>Uygulamamız aracılığıyla geçici olarak işlediğimiz bilgiler şunlardır:</p>
+            <h2>İşlenen Bilgiler</h2>
             <ul>
-                <li><strong>Flört Uygulaması İçeriği:</strong> Analiz ve koçluk amaçları için yüklediğiniz ekran görüntüleri, mesajlar ve profil bilgileri geçici olarak işlenir ancak sunucularımızda saklanmaz.</li>
-                <li><strong>Yerel Depolama:</strong> Koçluk istekleriniz, AI önerileri ve etkileşim geçmişiniz cihazınızda ve özel iCloud depolamanızda yerel olarak saklanır. Bu verilere erişimimiz yoktur.</li>
-                <li><strong>Krediler:</strong> Kredi kullanımınızla ilgili bilgiler özel iCloud hesabınızda saklanır. Bu verilere erişimimiz yoktur.</li>
-                <li><strong>Anonim Kullanım Verileri:</strong> Uygulamayı geliştirmek için Firebase Analytics ve Google Analytics aracılığıyla anonim kullanım verileri toplarız.</li>
-                <li><strong>Çökme Raporları:</strong> Uygulamanın kararlılığını artırmak için Firebase Crashlytics aracılığıyla anonim çökme raporları toplarız.</li>
+                <li><strong>Profillerden ve Mesajlardan Geçici Analiz:</strong> Öğeleri analiz ederken Lenora AI Dating Coach'a yüklediğiniz içerik işlenir, ancak kalıcı olarak saklanmaz. İşlem, Gemini AI tarafından sağlanan Firebase SDK'yı kullanarak yapılır.</li>
+                <li><strong>Kimlik Doğrulama Bilgileri:</strong> Google veya Apple kimlik doğrulamasını kullandığınızda, e-posta ve hesap tanımlayıcıları gibi temel hesap bilgileri toplanır ve Firebase Authentication'da saklanır.</li>
+                <li><strong>Krediler:</strong> Uygulama içi kredilerinizin kullanımı ve kalan miktarı, kullanıcı kimlik doğrulama profilinize bağlı olarak Firebase hesabınızda saklanır.</li>
+                <li><strong>Abonelik ve Satın Alma Bilgileri:</strong> Premium abonelikleriniz veya kredi paketleri satın aldığınızda, ödeme işlemleri RevenueCat tarafından yönetilir. RevenueCat, abonelik durumunuzu ve satın alımlarınızı yönetmek için gerekli işlem verilerini işler.</li>
+                <li><strong>Analytics Verileri:</strong> Uygulamanın kullanımı hakkında anonim, tanımlayıcı olmayan veriler toplanır.</li>
+                <li><strong>Çökme Raporları:</strong> Uygulama çökmeleri hakkında teknik bilgiler toplanır.</li>
             </ul>
 
             <h2>Bilgilerin İşlenme Amaçları</h2>
             <p>İçeriğinizi geçici olarak aşağıdaki amaçlarla işleyebiliriz:</p>
             <ul>
+                <li>Google veya Apple girişi kullanarak kimliğinizi doğrulamak.</li>
+                <li>Hesap bilgilerinizi ve kredi bakiyenizi Firebase'de tutmak.</li>
                 <li>Firebase SDK'dan Gemini kullanarak AI destekli flört koçluğu hizmetleri sunmak.</li>
                 <li>Kişiselleştirilmiş tavsiyeler sunmak için flört uygulaması ekran görüntülerini ve konuşmalarını geçici olarak işlemek.</li>
                 <li>Mesaj önerileri ve konuşma stratejileri oluşturmak.</li>
@@ -64,42 +66,49 @@
             </ul>
 
             <h2>Veri Paylaşımı</h2>
-            <p><strong>Kişisel veri toplamadığımız ve sunucularımızda saklamadığımız için, kişisel verilerinizi üçüncü taraflarla paylaşmıyoruz.</strong> Ancak, belirli bilgiler aşağıdaki şekilde işlenebilir:</p>
+            <p>Lenora AI Dating Coach, kullanıcı verilerini üçüncü taraflarla kural olarak paylaşmaz. Bununla birlikte, hizmetimizi sağlamak için belirli ortak şirketlerle çalışıyoruz:</p>
             <ul>
-                <li><strong>Yasal Yükümlülükler:</strong> Yasal olarak gerektiğinde, yasal süreçlere yanıt vermek veya başkalarının haklarını, mülkiyetini ve güvenliğini korumak için.</li>
-                <li><strong>Üçüncü Taraf Hizmet Sağlayıcıları:</strong> Firebase Analytics, Google Analytics ve Firebase Crashlytics kendi gizlilik politikalarına göre anonim kullanım ve çökme verilerini toplayabilir.</li>
-                <li><strong>AI İşleme Hizmetleri:</strong> Flört uygulaması içeriğinizi analiz etmek ve koçluk önerileri oluşturmak için Firebase SDK'dan Gemini AI'yı kullanırız. İçeriğiniz geçici olarak işlenir ve bu hizmetler tarafından saklanmaz.</li>
+                <li><strong>Firebase</strong> (Google): Sınırlı kişisel verileriniz (kimlik doğrulama bilgileri ve kredi bakiyesi) Firebase sunucularında saklanır ve yasal zorunluluklar altında işlenebilir.</li>
+                <li><strong>RevenueCat</strong>: Aboneliklerinizi ve kredi paketi satın alımlarınızı yönetmek için RevenueCat kullanılır. RevenueCat, satın alma işlemleri ve abonelik durumları ile ilgili verileri işler.</li>
+                <li><strong>Apple</strong>: Apple'ın gizlilik politikasına uygun olarak, Apple Sign-In kullanıyorsanız, Apple belirli bilgileri işleyebilir.</li>
+                <li><strong>Google</strong>: Google'ın gizlilik politikasına uygun olarak, Google Sign-In kullanıyorsanız, Google belirli bilgileri işleyebilir.</li>
+                <li><strong>Hizmet Sağlayıcılar</strong>: Hizmetimizin geliştirilmesi ve bakımı amacıyla başka üçüncü taraf hizmet sağlayıcılarla çalışabiliriz.</li>
+                <li><strong>Yasal Gereklilikler</strong>: Yasaların gerektirdiği durumlarda verilerinizi paylaşabiliriz.</li>
+                <li><strong>İş Transferleri</strong>: Şirket satışı veya birleşmesi gibi durumlarda verileriniz aktarılabilir.</li>
             </ul>
+            <p>Güvenliğinizi ve gizliliğinizi korumak için, yalnızca gereken minimum miktarda veriyi üçüncü taraflarla paylaşırız. Üçüncü taraf hizmet sağlayıcılar, uygun veri işleme anlaşmaları ve standartlar dahilinde görevlendirilir.</p>
 
             <h2>Veri Güvenliği</h2>
             <p>Gizliliğinize aşağıdaki şekillerde öncelik veriyoruz:</p>
             <ul>
-                <li><strong>Hiçbir kişisel veri toplamıyor veya saklamıyoruz.</strong></li>
-                <li>Kullanıcı hesapları veya kimlik doğrulama sistemleri bulundurmuyoruz.</li>
-                <li>Kredileriniz ve koçluk geçmişiniz yalnızca cihazınızda ve özel iCloud depolamanızda saklanır.</li>
+                <li><strong>Sunucularımızda yalnızca gerekli minimum kişisel verileri (e-posta adresi, hesap tanımlayıcı ve kredi bakiyesi) saklıyoruz.</strong></li>
+                <li>Firebase'de saklanan bilgilerinizi korumak için endüstri standardı güvenlik önlemleri kullanıyoruz.</li>
+                <li>Firebase Authentication kullanarak yalnızca gerekli işlevsellik için kullanıcı hesaplarını ve kimlik doğrulama sistemlerini tutarız.</li>
+                <li>Koçluk geçmişiniz yalnızca cihazınızda ve özel iCloud depolamanızda saklanır.</li>
                 <li>Koçluk geçmişinizi ve sonuçlarınızı uygulama içinden istediğiniz zaman silebilirsiniz.</li>
                 <li>Analiz için yüklediğiniz içerik geçici olarak işlenir ve tarafımızdan kalıcı olarak saklanmaz.</li>
+                <li>Bizimle iletişime geçerek hesap verilerinizin silinmesini talep edebilirsiniz.</li>
             </ul>
 
             <h2>Kullanıcı Hakları</h2>
-            <p><strong>Kişisel veri toplamadığımız ve saklamadığımız için, veri koruma yasaları kapsamındaki birçok yükümlülük uygulamamız için geçerli değildir.</strong> Ancak, yine de aşağıdaki haklara sahipsiniz:</p>
+            <p><strong>Sınırlı kişisel veri sakladığımız için, bu verilerle ilgili aşağıdaki haklara sahipsiniz:</strong></p>
             <ul>
-                <li><strong>Erişim ve Taşınabilirlik:</strong> Kişisel verilerinizi toplamadığımız ve saklamadığımız için, tüm koçluk verileriniz zaten cihazınızda ve iCloud'da sizin elinizdedir.</li>
-                <li><strong>Düzeltme ve Silme:</strong> Koçluk geçmişinizi ve sonuçlarınızı uygulama içinden istediğiniz zaman silebilirsiniz.</li>
-                <li><strong>İşleme Kısıtlaması ve İtiraz:</strong> Verilerinizin nasıl işlendiğine itiraz ediyorsanız, uygulamanın belirli özelliklerini kullanmayı durdurabilirsiniz.</li>
+                <li><strong>Erişim ve Taşınabilirlik:</strong> Sakladığımız kişisel verilerinizin bir kopyasını talep edebilirsiniz.</li>
+                <li><strong>Düzeltme ve Silme:</strong> Yanlış verilerin düzeltilmesini veya hesabınızın ve ilişkili verilerin silinmesini talep edebilirsiniz. Ayrıca koçluk geçmişinizi ve sonuçlarınızı uygulama içinden istediğiniz zaman silebilirsiniz.</li>
+                <li><strong>İşleme Kısıtlaması ve İtiraz:</strong> Belirli durumlarda verilerinizin işlenmesini kısıtlamamızı isteyebilir veya işleme itiraz edebilirsiniz.</li>
             </ul>
 
             <h2>Çocukların Gizliliği</h2>
             <p>Uygulamamız 13 yaş altındaki bireyler için tasarlanmamıştır. 13 yaş altı çocuklardan kişisel bilgi toplamıyoruz.</p>
 
-            <h2>Uluslararası Veri Aktarımları</h2>
-            <p><strong>Kişisel veri toplamadığımız ve sunucularımızda saklamadığımız için, uygulamamız tarafından kişisel verilerinizin uluslararası aktarımı yoktur.</strong> Ancak, kullandığımız üçüncü taraf hizmetler (Firebase Analytics, Google Analytics, Firebase Crashlytics) kendi gizlilik politikalarına göre anonim veri aktarabilir.</p>
+            <h2>Uluslararası Veri Transferleri</h2>
+            <p>Kişisel verileriniz, Firebase ve RevenueCat'in faaliyet gösterdiği ülkeler de dahil olmak üzere farklı ülkelere aktarılabilir. Bu tür her türlü transfer, ilgili veri koruma yasalarına uygun olarak yönetilir. Verilerinizi yalnızca yeterli güvenlik önlemleri olduğunda ve gerektiğinde aktarırız. Uygulamamızı kullanarak, verilerinizin bu tür transferlere tabi olabileceğini kabul edersiniz.</p>
 
             <h2>Kredi Bilgileri</h2>
-            <p>Lenora AI Dating Coach, çeşitli özelliklere sahip ücretsiz ve premium kredi paketleri sunar. Ücretsiz kullanıcılar aylık sınırlı sayıda kredi alırken, premium aboneler aylık ek krediler alır. Ek kredi paketleri ayrıca satın alınabilir. Güncel kredi miktarları ve fiyatlandırma uygulama içinde görüntülenir ve değişikliğe tabidir. Tüm satın alma yönetimi, iptaller dahil, App Store aracılığıyla yapılmalıdır.</p>
+            <p>Lenora AI Dating Coach, çeşitli özelliklere sahip ücretsiz ve premium kredi paketleri sunar. Ücretsiz kullanıcılar aylık sınırlı sayıda kredi alırken, premium aboneler aylık ek krediler alır. Ek kredi paketleri ayrıca satın alınabilir. Güncel kredi miktarları ve fiyatlandırma uygulama içinde görüntülenir ve değişikliğe tabidir. Kredi bakiyeniz Firebase'de saklanır ve kimlik doğrulama profilinize bağlıdır. Tüm satın alma yönetimi, abonelikler ve iptaller dahil, RevenueCat ve App Store aracılığıyla gerçekleştirilir. Kredi satın alma işlemleri ve aboneliklerle ilgili kullanım verileriniz RevenueCat tarafından işlenir. Aboneliğinizi doğrudan App Store ayarlarınızdan yönetebilir ve iptal edebilirsiniz.</p>
 
             <h2>Veri Saklama ve Silme</h2>
-            <p>Sunucularımızda kişisel verilerinizi saklamadığımız için, bir veri saklama süresi yoktur. Tüm koçluk geçmişiniz ve sonuçlarınız yalnızca cihazınızda ve özel iCloud depolamanızda saklanır. Bu verileri uygulama içinden istediğiniz zaman silebilirsiniz.</p>
+            <p>Firebase'de sınırlı kişisel veri (kimlik doğrulama bilgileri ve kredi bakiyesi) bizimle hesabınızı koruduğunuz sürece saklarız. Bizimle iletişime geçerek bu verilerin silinmesini istediğiniz zaman talep edebilirsiniz. Tüm koçluk geçmişiniz ve sonuçlarınız yalnızca cihazınızda ve özel iCloud depolamanızda saklanır. Bu verileri uygulama içinden istediğiniz zaman silebilirsiniz.</p>
 
             <h2>Gizlilik Politikası Güncellemeleri</h2>
             <p>Bu aydınlatma metninde zaman zaman değişiklik yapabiliriz. Güncellemeler bu sayfada yayınlanacaktır. Gizlilik politikamızı periyodik olarak gözden geçirmeniz tavsiye edilir.</p>

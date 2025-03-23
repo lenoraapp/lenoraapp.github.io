@@ -30,7 +30,7 @@
     <section class="legal-content">
         <div class="container">
             <h1>PDPL(Personal Data Protection Law) Disclosure Notice</h1>
-            <p>Last updated: 02.03.2025</p>
+            <p>Last updated: 23.03.2025</p>
 
             <p>Welcome to the Lenora AI Dating Coach app. <strong>Important note: Our application does not collect or store any personal data on our servers.</strong> This disclosure notice explains how we temporarily process your content for AI coaching services and how your data is protected. Please read this text carefully.</p>
 
@@ -45,8 +45,9 @@
             <p>The information we temporarily process through our app includes:</p>
             <ul>
                 <li><strong>Dating App Content:</strong> Screenshots, messages, and profile information you upload for analysis and coaching purposes are temporarily processed but not stored on our servers.</li>
+                <li><strong>Authentication Information:</strong> When you sign in using Google or Apple authentication, we receive and store basic account information such as your email address and account identifier in Firebase Authentication.</li>
                 <li><strong>Local Storage:</strong> Your coaching requests, AI suggestions, and interaction history are stored locally on your device and in your private iCloud storage. We do not have access to this data.</li>
-                <li><strong>Credits:</strong> Information related to your credit usage is stored in your private iCloud account. We do not have access to this data.</li>
+                <li><strong>Credits:</strong> Information related to your credit usage is stored in your Firebase account linked to your authentication profile.</li>
                 <li><strong>Anonymous Usage Data:</strong> We collect anonymous usage data through Firebase Analytics and Google Analytics to improve the app.</li>
                 <li><strong>Crash Reports:</strong> We collect anonymous crash reports through Firebase Crashlytics to enhance app stability.</li>
             </ul>
@@ -54,6 +55,8 @@
             <h2>Purposes of Processing Information</h2>
             <p>We may temporarily process your content for the following purposes:</p>
             <ul>
+                <li>To authenticate your identity using Google or Apple sign-in.</li>
+                <li>To maintain your account information and credit balance in Firebase.</li>
                 <li>To provide AI-powered dating coaching services using Gemini from Firebase SDK.</li>
                 <li>To temporarily process dating app screenshots and conversations to provide personalized recommendations.</li>
                 <li>To generate message suggestions and conversation strategies.</li>
@@ -64,42 +67,44 @@
             </ul>
 
             <h2>Data Sharing</h2>
-            <p><strong>Since we do not collect or store personal data on our servers, we do not share your personal data with third parties.</strong> However, certain information may be processed as follows:</p>
+            <p><strong>We store limited personal data (authentication information and credit balance) on our servers through Firebase.</strong> This information may be processed as follows:</p>
             <ul>
                 <li><strong>Legal Obligations:</strong> When legally required, to respond to legal processes or protect the rights, property, and safety of others.</li>
-                <li><strong>Third-Party Service Providers:</strong> Firebase Analytics, Google Analytics, and Firebase Crashlytics may collect anonymous usage and crash data according to their privacy policies.</li>
+                <li><strong>Third-Party Service Providers:</strong> Firebase Authentication, Firebase Database, Firebase Analytics, Google Analytics, and Firebase Crashlytics may collect and store data according to their own privacy policies.</li>
                 <li><strong>AI Processing Services:</strong> We use Gemini AI from Firebase SDK to analyze your dating app content and generate coaching suggestions. Your content is temporarily processed and not stored by these services.</li>
             </ul>
 
             <h2>Data Security</h2>
             <p>We prioritize your privacy in the following ways:</p>
             <ul>
-                <li><strong>We do not collect or store any personal data.</strong></li>
-                <li>We do not maintain user accounts or authentication systems.</li>
-                <li>Your credits and coaching history are stored only on your device and in your private iCloud storage.</li>
+                <li><strong>We store only the minimal necessary personal data on our servers (email address, account identifier, and credit balance).</strong></li>
+                <li>We use industry-standard security measures to protect your information stored in Firebase.</li>
+                <li>We maintain user accounts and authentication systems only for necessary functionality using Firebase Authentication.</li>
+                <li>Your coaching history is stored only on your device and in your private iCloud storage.</li>
                 <li>You can delete your coaching history and results at any time from within the app.</li>
                 <li>Content you upload for analysis is temporarily processed and not permanently stored by us.</li>
+                <li>You can request deletion of your account data by contacting us.</li>
             </ul>
 
             <h2>User Rights</h2>
-            <p><strong>Since we do not collect or store personal data, many obligations under data protection laws do not apply to our application.</strong> However, you still have the following rights:</p>
+            <p><strong>Since we store limited personal data, you have the following rights regarding this data:</strong></p>
             <ul>
-                <li><strong>Access and Portability:</strong> Since we don't collect and store your personal data, all your coaching data is already in your possession on your device and iCloud.</li>
-                <li><strong>Correction and Deletion:</strong> You can delete your coaching history and results at any time from within the app.</li>
-                <li><strong>Restriction of Processing and Objection:</strong> If you object to how your data is processed, you can stop using specific features of the app.</li>
+                <li><strong>Access and Portability:</strong> You can request a copy of your personal data we store.</li>
+                <li><strong>Correction and Deletion:</strong> You can request correction of inaccurate data or deletion of your account and associated data. You can also delete your coaching history and results at any time from within the app.</li>
+                <li><strong>Restriction of Processing and Objection:</strong> You can request that we restrict processing of your data or object to processing in certain circumstances.</li>
             </ul>
 
             <h2>Children's Privacy</h2>
             <p>Our app is not intended for individuals under the age of 13. We do not collect personal information from children under 13.</p>
 
             <h2>International Data Transfers</h2>
-            <p><strong>Since we do not collect or store personal data on our servers, there are no international transfers of your personal data by our app.</strong> However, the third-party services we use (Firebase Analytics, Google Analytics, Firebase Crashlytics) may transfer anonymous data according to their privacy policies.</p>
+            <p><strong>The limited personal data we store (authentication information and credit balance) in Firebase may be transferred to different countries where Firebase operates.</strong> These transfers are governed by appropriate safeguards as required by applicable laws. The third-party services we use (Firebase Authentication, Firebase Database, Firebase Analytics, Google Analytics, Firebase Crashlytics) may also transfer data according to their own privacy policies.</p>
 
             <h2>Credits Information</h2>
-            <p>Lenora AI Dating Coach offers free and premium credit packages with various features. Free users receive a limited number of credits per month, while premium subscribers receive additional credits monthly. Additional credit packages can also be purchased separately. Current credit amounts and pricing are displayed within the app and are subject to change. All purchase management, including cancellations, must be performed through the App Store.</p>
+            <p>Lenora AI Dating Coach offers free and premium credit packages with various features. Free users receive a limited number of credits per month, while premium subscribers receive additional credits monthly. Additional credit packages can also be purchased separately. Current credit amounts and pricing are displayed within the app and are subject to change. Your credit balance is stored in Firebase and linked to your authentication profile. All purchase management, including cancellations, must be performed through the App Store.</p>
 
             <h2>Data Retention and Deletion</h2>
-            <p>Since we do not store your personal data on our servers, there is no data retention period. All your coaching history and results are stored only on your device and in your private iCloud storage. You can delete this data at any time from within the app.</p>
+            <p>We store limited personal data (authentication information and credit balance) in Firebase for as long as you maintain an account with us. You can request deletion of this data at any time by contacting us. All your coaching history and results are stored only on your device and in your private iCloud storage. You can delete this data at any time from within the app.</p>
 
             <h2>Privacy Policy Updates</h2>
             <p>We may update this disclosure notice from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. Any changes will be posted on this page. We recommend that you review this disclosure notice periodically.</p>
