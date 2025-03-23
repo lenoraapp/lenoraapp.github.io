@@ -15,16 +15,14 @@
 
 <body>
     <header class="hero legal-header">
-        <div class="container">
-            <nav>
-                <div class="nav-container">
-                    <div class="logo" data-translate="app_name">Lenora</div>
-                    <div class="nav-links">
-                        <a href="../index.html" data-translate="home">Home</a>
-                    </div>
+        <nav>
+            <div class="nav-container">
+                <div class="logo" data-translate="app_name">Lenora</div>
+                <div class="nav-links">
+                    <a href="../index.html" data-translate="home">Home</a>
                 </div>
-            </nav>
-        </div>
+            </div>
+        </nav>
     </header>
 
     <section class="legal-content">
@@ -32,21 +30,24 @@
             <h1>Politique de Confidentialité</h1>
             <p>Dernière mise à jour : 23.03.2025</p>
 
-            <p>Bienvenue sur Lenora AI Dating Coach. Cette Politique de Confidentialité explique comment nous collectons, utilisons, divulguons et protégeons vos informations lorsque vous utilisez notre application mobile. <strong>Note importante : Notre application ne collecte ni ne stocke aucune donnée personnelle sur nos serveurs.</strong> Veuillez lire attentivement cette politique de confidentialité. Si vous n'acceptez pas les termes de cette politique de confidentialité, veuillez ne pas accéder à l'application.</p>
+            <p>Bienvenue sur Lenora AI Dating Coach. Cette Politique de Confidentialité explique comment nous collectons, utilisons, divulguons et protégeons vos informations lorsque vous utilisez notre application mobile. Veuillez lire attentivement cette politique de confidentialité. Si vous n'acceptez pas les termes de cette politique de confidentialité, veuillez ne pas accéder à l'application.</p>
 
             <h2>Informations que Nous Collectons</h2>
             <p>Les informations que nous traitons via l'application dépendent du contenu et des matériaux que vous utilisez, et comprennent :</p>
             <ul>
                 <li><strong>Contenu d'Applications de Rencontres :</strong> Nous traitons temporairement les captures d'écran, les messages et les informations de profil que vous téléchargez à des fins d'analyse et de coaching. Cela peut inclure des conversations d'applications de rencontres, des photos de profil et des biographies. Ce contenu n'est pas stocké sur nos serveurs.</li>
+                <li><strong>Informations d'Authentification :</strong> Lorsque vous vous connectez à l'aide de l'authentification Google ou Apple, nous recevons des informations de base sur votre compte, telles que votre adresse e-mail et votre identifiant de compte. Ces informations sont stockées dans Firebase Authentication.</li>
                 <li><strong>Stockage Local :</strong> Vos demandes de coaching, les suggestions de l'IA et l'historique des interactions sont stockés localement sur votre appareil et dans votre stockage iCloud privé. Nous n'avons pas accès à ces données.</li>
-                <li><strong>Crédits :</strong> Les informations concernant votre utilisation des crédits sont stockées de manière privée dans votre compte iCloud. Nous n'avons pas accès à ces données.</li>
-                <li><strong>Données d'Utilisation :</strong> Nous utilisons Firebase Analytics et Google Analytics pour suivre le comportement des utilisateurs au sein de l'application de manière anonyme.</li>
-                <li><strong>Rapports de Plantage :</strong> Nous utilisons Firebase Crashlytics pour collecter des rapports de plantage anonymes afin d'améliorer la stabilité de l'application.</li>
+                <li><strong>Crédits :</strong> Les informations concernant votre utilisation des crédits sont stockées dans votre compte Firebase. Ces données sont liées à votre profil d'authentification.</li>
+                <li><strong>Données d'Utilisation :</strong> Nous utilisons Firebase Analytics et Google Analytics pour suivre le comportement des utilisateurs au sein de l'application.</li>
+                <li><strong>Rapports de Plantage :</strong> Nous utilisons Firebase Crashlytics pour collecter des rapports de plantage afin d'améliorer la stabilité de l'application.</li>
             </ul>
 
             <h2>Comment Nous Utilisons Vos Informations</h2>
             <p>Disposer d'informations précises à votre sujet nous permet de vous offrir une expérience fluide, efficace et personnalisée. Plus précisément, nous pouvons utiliser les informations collectées via l'application pour :</p>
             <ul>
+                <li>Authentifier votre identité à l'aide de la connexion Google ou Apple.</li>
+                <li>Gérer les informations de votre compte et votre solde de crédits dans Firebase.</li>
                 <li>Fournir des services de coaching de rencontres alimentés par l'IA en utilisant Gemini du SDK Firebase.</li>
                 <li>Traiter temporairement les captures d'écran et les conversations d'applications de rencontres pour offrir des conseils personnalisés.</li>
                 <li>Générer des suggestions de messages et des stratégies de conversation.</li>
@@ -72,62 +73,71 @@
             <p>Email : <a href="mailto:lenora@ulassancak.com">lenora@ulassancak.com</a></p>
 
             <h2>Notification de Violation de Données</h2>
-            <p>Comme nous ne collectons ni ne stockons de données personnelles, le risque de violation de données affectant vos informations personnelles est inexistant. Cependant, en cas d'incident de sécurité pouvant affecter la sécurité de l'application, nous informerons nos utilisateurs.</p>
+            <p>En cas de violation de données affectant vos informations personnelles, nous vous en informerons dans les 72 heures suivant la découverte de la violation.</p>
 
             <h2>Cookies et Technologies de Suivi</h2>
             <p>Nous utilisons des cookies et d'autres technologies de suivi pour améliorer votre expérience avec notre application. Vous pouvez gérer vos préférences de cookies via les paramètres de votre navigateur. Pour plus de détails, veuillez consulter notre Politique de Cookies.</p>
 
             <h2>Partage de Vos Informations</h2>
-            <p><strong>Comme nous ne collectons ni ne stockons de données personnelles sur nos serveurs, nous ne partageons pas vos données personnelles avec des tiers.</strong> Cependant, certaines informations peuvent être traitées comme suit :</p>
+            <p>Nous stockons des données personnelles limitées sur nos serveurs via Firebase Authentication et Firebase Database pour la gestion des crédits. Certaines informations peuvent être partagées comme suit :</p>
             <ul>
-                <li><strong>Par la Loi ou pour Protéger des Droits :</strong> En cas d'obligation légale, nous pouvons partager les informations nécessaires pour répondre à des processus juridiques ou protéger les droits, la propriété et la sécurité d'autrui.</li>
-                <li><strong>Fournisseurs de Services Tiers :</strong> Firebase Analytics, Google Analytics et Firebase Crashlytics peuvent collecter des données d'utilisation et de plantage anonymes conformément à leurs propres politiques de confidentialité.</li>
+                <li><strong>Par la Loi ou pour Protéger des Droits :</strong> Si nous estimons que la divulgation d'informations vous concernant est nécessaire pour répondre à des processus juridiques, pour enquêter ou remédier à d'éventuelles violations de nos politiques, ou pour protéger les droits, la propriété et la sécurité d'autrui, nous pouvons partager vos informations conformément à toute loi, règle ou réglementation applicable.</li>
+                <li><strong>Fournisseurs de Services Tiers :</strong> Nous utilisons Firebase Authentication, Firebase Database, Firebase Analytics, Google Analytics, Firebase Crashlytics et RevenueCat qui collectent et stockent des données conformément à leurs propres politiques de confidentialité. RevenueCat traite spécifiquement les données d'abonnement et d'achat pour gérer vos forfaits de crédits.</li>
                 <li><strong>Services de Traitement IA :</strong> Nous utilisons Gemini AI du SDK Firebase pour analyser votre contenu d'applications de rencontres et générer des suggestions de coaching. Votre contenu est traité temporairement et n'est pas stocké par ces services.</li>
             </ul>
 
             <h2>Services Tiers</h2>
             <p>Lenora AI Dating Coach utilise les services tiers suivants :</p>
             <ul>
+                <li>Firebase Authentication : Pour l'authentification des utilisateurs avec la connexion Google et Apple</li>
+                <li>Firebase Database : Pour stocker vos informations de crédit</li>
                 <li>Firebase Analytics et Google Analytics : Pour l'analyse d'utilisation</li>
                 <li>Firebase Crashlytics : Pour les rapports de plantage</li>
                 <li>Gemini AI (SDK Firebase) : Pour analyser le contenu de rencontres et générer des suggestions de coaching</li>
-                <li>Apple iCloud : Pour stocker vos crédits et votre historique de coaching de manière privée</li>
+                <li>Apple iCloud : Pour stocker votre historique de coaching de manière privée</li>
+                <li>Services d'authentification Google et Apple : Pour la vérification d'identité</li>
+                <li>RevenueCat : Pour gérer les abonnements et les achats in-app de forfaits de crédits</li>
             </ul>
             <p>Ces services peuvent collecter et traiter vos données conformément à leurs propres politiques de confidentialité.</p>
 
             <h2>Stockage des Données et Confidentialité</h2>
             <p>Nous donnons la priorité à votre confidentialité des manières suivantes :</p>
             <ul>
-                <li><strong>Nous ne collectons ni ne stockons aucune donnée personnelle.</strong></li>
-                <li>Nous ne maintenons pas de comptes utilisateurs ou de systèmes d'authentification.</li>
-                <li>Vos crédits et votre historique de coaching sont stockés uniquement sur votre appareil et dans votre stockage iCloud privé.</li>
+                <li>Nous maintenons des comptes utilisateurs et des systèmes d'authentification uniquement pour les fonctionnalités nécessaires en utilisant Firebase Authentication.</li>
+                <li>Nous ne stockons que les données personnelles minimales nécessaires sur nos serveurs (adresse e-mail et identifiant de compte pour l'authentification, et solde de crédits).</li>
+                <li>Votre historique de coaching est stocké uniquement sur votre appareil et dans votre stockage iCloud privé.</li>
                 <li>Vous pouvez supprimer votre historique de coaching et vos résultats à tout moment depuis l'application.</li>
                 <li>Le contenu que vous téléchargez pour analyse est traité temporairement et n'est pas stocké de façon permanente par nous.</li>
+                <li>Vous pouvez demander la suppression des données de votre compte en nous contactant.</li>
             </ul>
 
             <h2>Transferts Internationaux de Données</h2>
-            <p>Comme nous ne collectons ni ne stockons de données personnelles sur nos serveurs, il n'y a pas de transferts internationaux de vos données personnelles de notre part. Cependant, les services tiers que nous utilisons (Firebase Analytics, Google Analytics, Firebase Crashlytics) peuvent transférer des données anonymes conformément à leurs propres politiques de confidentialité.</p>
+            <p>Les données personnelles limitées que nous stockons (informations d'authentification et solde de crédits) dans Firebase peuvent être transférées dans différents pays où Firebase opère. Ces transferts sont régis par des garanties appropriées, conformément aux lois applicables. Les services tiers que nous utilisons (Firebase Authentication, Firebase Database, Firebase Analytics, Google Analytics, Firebase Crashlytics) peuvent également transférer des données conformément à leurs propres politiques de confidentialité.</p>
 
             <h2>Conformité au RGPD</h2>
-            <p><strong>Comme nous ne collectons ni ne stockons de données personnelles, de nombreuses obligations en vertu du RGPD ne s'appliquent pas à notre application.</strong> Cependant, les utilisateurs de l'Espace Économique Européen (EEE) disposent toujours des droits suivants concernant tout traitement de données :</p>
+            <p>Nous stockons des données personnelles limitées sur nos serveurs via Firebase. Les utilisateurs de l'Espace Économique Européen (EEE) disposent des droits suivants concernant ces données :</p>
             <ul>
-                <li><strong>Accès et Portabilité :</strong> Comme nous ne stockons pas vos données personnelles, toutes vos données de coaching sont déjà en votre possession sur votre appareil et iCloud.</li>
-                <li><strong>Rectification et Effacement :</strong> Vous pouvez supprimer votre historique de coaching et vos résultats à tout moment depuis l'application.</li>
-                <li><strong>Limitation et Opposition :</strong> Vous pouvez cesser d'utiliser des fonctionnalités spécifiques de l'application si vous vous opposez à la façon dont elles traitent vos données.</li>
+                <li><strong>Accès et Portabilité :</strong> Vous pouvez demander une copie des données personnelles que nous stockons.</li>
+                <li><strong>Rectification et Effacement :</strong> Vous pouvez demander la correction de données inexactes ou la suppression de votre compte et des données associées. Vous pouvez également supprimer votre historique de coaching et vos résultats à tout moment depuis l'application.</li>
+                <li><strong>Limitation et Opposition :</strong> Vous pouvez demander que nous limitions le traitement de vos données ou vous opposer au traitement dans certaines circonstances.</li>
             </ul>
             <p>Pour toute demande liée au RGPD, veuillez nous contacter à <a href="mailto:lenora@ulassancak.com">lenora@ulassancak.com</a>.</p>
 
             <h2>Conformité à la Loi Californienne sur la Protection de la Vie Privée des Consommateurs (CCPA)</h2>
-            <p><strong>Comme nous ne collectons ni ne vendons de données personnelles, la plupart des dispositions du CCPA ne s'appliquent pas à notre application.</strong> Cependant, les résidents de Californie doivent savoir que les services tiers que nous utilisons (Firebase Analytics, Google Analytics, Firebase Crashlytics) peuvent collecter certaines données anonymes conformément à leurs propres politiques de confidentialité.</p>
+            <p>En vertu du CCPA, les résidents de Californie disposent de certains droits concernant leurs informations personnelles. Comme nous stockons des données personnelles limitées (informations d'authentification et solde de crédits), vous avez le droit de savoir quelles informations personnelles nous collectons, de demander la suppression de vos informations personnelles et de refuser la vente d'informations personnelles (bien que nous ne vendions pas d'informations personnelles). Les résidents de Californie doivent également savoir que les services tiers que nous utilisons peuvent collecter certaines données conformément à leurs propres politiques de confidentialité.</p>
 
             <h2>Contenu de Rencontres et Confidentialité</h2>
             <p>Nous comprenons que le contenu des applications de rencontres peut être sensible et personnel. Nous prenons les mesures suivantes pour protéger votre vie privée :</p>
             <ul>
                 <li>Toutes les captures d'écran et conversations téléchargées sont traitées temporairement et ne sont pas stockées sur nos serveurs.</li>
                 <li>Les résultats de l'analyse IA sont stockés uniquement sur votre appareil et dans votre stockage iCloud privé.</li>
+                <li>Les données d'authentification et les informations de crédits sont stockées de manière sécurisée dans Firebase.</li>
                 <li>Vous pouvez supprimer votre historique de coaching et vos résultats à tout moment depuis l'application.</li>
                 <li>Nous recommandons de masquer ou de recadrer les informations d'identification d'autres personnes avant de télécharger des captures d'écran.</li>
             </ul>
+
+            <h2>Informations sur les Crédits</h2>
+            <p>Lenora AI Dating Coach propose des forfaits de crédits gratuits et premium avec diverses fonctionnalités. Les utilisateurs gratuits reçoivent un nombre limité de crédits par mois, tandis que les abonnés premium reçoivent des crédits supplémentaires mensuellement. Des forfaits de crédits supplémentaires peuvent également être achetés séparément. Les montants de crédits actuels et les tarifs sont affichés dans l'application et sont sujets à modification. Votre solde de crédits est stocké dans Firebase et lié à votre profil d'authentification. Toute la gestion des achats, y compris les abonnements et les annulations, est gérée par RevenueCat et l'App Store. Vous pouvez gérer et annuler votre abonnement directement depuis les paramètres de votre compte App Store.</p>
 
             <h2>Modifications de Cette Politique de Confidentialité</h2>
             <p>Nous pouvons mettre à jour cette Politique de Confidentialité de temps à autre afin de refléter, par exemple, des changements dans nos pratiques ou pour d'autres raisons opérationnelles, juridiques ou réglementaires. Nous vous informerons de tout changement important en publiant la nouvelle Politique de Confidentialité sur cette page. Nous vous conseillons de consulter périodiquement cette Politique de Confidentialité pour prendre connaissance des modifications. Les modifications de cette Politique de Confidentialité sont effectives lorsqu'elles sont publiées sur cette page.</p>
